@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Allgemeines Styling */
+body {
+    font-family: "Arial, Helvetica, sans-serif";
+}
+
+/* CSS Kombo Magic > Hauptklasse für Höhe mit KLasse*/
+.all-backgrounds {
+    height: 75vh;
+}
+
+.home-background {
+    background: url('../../static/images/home.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.about-background {
+    background: url('../../static/images/about.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.services-background {
+    background: url('../../static/images/services.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* Bisschen Header schön gemacht */
+header {
+    display: block;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 2rem;
+}
+
+a.navbar-brand:link,
+a.navbar-brand:visited {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Menü UL in Nav */
+ul {
+
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a:link,
+ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 1320px;
+    margin: 0 auto;
+    color: white;
+    padding: 2rem;
+    min-height: 50vh;
+}
+
+footer {
+    background: rgba(255, 255, 255, .6);
+    width: 1320px;
+    margin: 0 auto;
+    color: white;
+    padding: 2rem;
+    color: grey;
+    border-radius: 4px;
+    text-align: center;
+}
+
