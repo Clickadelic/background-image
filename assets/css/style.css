@@ -6,10 +6,10 @@
 
 /* Allgemeines Styling */
 body {
-    font-family: "Arial, Helvetica, sans-serif";
+    font-family: "Arial", Helvetica, sans-serif;
 }
 
-/* CSS Kombo Magic > Hauptklasse für Höhe mit KLasse*/
+/* CSS Kombo Magic > Hauptklasse für Höhe + Klasse mit Bild */
 .all-backgrounds {
     height: 75vh;
 }
@@ -30,12 +30,6 @@ body {
 }
 
 
-
-
-
-
-
-
 /* Bisschen Header schön gemacht */
 header {
     display: block;
@@ -45,31 +39,30 @@ header {
     padding: 2rem;
 }
 
-a.navbar-brand:link,
-a.navbar-brand:visited {
-    color: white;
-    text-decoration: none;
-
-}
-
 .nav {
     display: flex;
     justify-content: space-between;
 }
 
 /* Menü UL in Nav */
-ul {
-
-}
-
 ul li {
     display: inline;
+    margin: 0 2rem 0 0;
 }
 
-ul li a:link,
-ul li a:visited {
+/* Alle links weiss */
+
+a:link,
+a:visited {
     color: white;
     text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: gray;
+    text-decoration: none;
+
 }
 
 main {
